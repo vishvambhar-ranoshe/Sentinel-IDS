@@ -1,33 +1,54 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.Python
+*.so
+*.egg
 *.egg-info/
+dist/
+build/
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
 
 # Data — too large for GitHub
 data/raw/
 data/processed/
-data/models/
 
 # Logs
-logs/
-
-# Environment
-.env
-.venv
-env/
+logs/*.log
 
 # Mac
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Node
 dashboard/node_modules/
+dashboard/build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
 # Anaconda
 .anaconda/
+.conda/
 
-# Temp
-MachineLearningCVE/
+# Temp files
+*.tmp
+*.bak
 nano
