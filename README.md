@@ -9,15 +9,15 @@
 ![NIDS](https://img.shields.io/badge/NIDS-%E2%9C%93-success?style=flat-square)
 ![HIDS](https://img.shields.io/badge/HIDS-%E2%9C%93-success?style=flat-square)
 
-> A real-time hybrid intrusion detection system — combining network surveillance, host monitoring, and a five-model ML ensemble into one unified threat detection platform.
+> A real-time hybrid intrusion detection system combining network surveillance, host monitoring, and a five-model ML ensemble into one unified threat detection platform.
 
-**Author — Vishvambhar Ranoshe**
+**Author : Vishvambhar Ranoshe**
 
 ---
 
 ## What is Sentinel-IDS?
 
-Sentinel is not a configuration of existing tools. Every component is built from scratch — packet capture, feature extraction, detection pipeline, ML inference, correlation engine, alert logging, REST API, and dashboard.
+Sentinel is not a configuration of existing tools. Every component is built from scratch packet capture, feature extraction, detection pipeline, ML inference, correlation engine, alert logging, REST API, and dashboard.
 
 It captures live packets on all active interfaces simultaneously, runs them through nine detection layers, feeds them into five machine learning models in parallel, correlates network and host events, and displays everything live on a React dashboard with dark and light mode.
 
@@ -25,7 +25,7 @@ It captures live packets on all active interfaces simultaneously, runs them thro
 
 ## ML Model Performance
 
-Trained on **CICIDS2017** — 2,827,876 samples across 15 attack categories.
+Trained on **CICIDS2017** - 2,827,876 samples across 15 attack categories.
 
 | Model | Type | Accuracy | ROC-AUC | Train Time |
 |---|---|---|---|---|
@@ -101,13 +101,13 @@ No single model can trigger a false alarm alone.
 
 | Stage | Component |
 |---|---|
-| 1 | Packet Capture — Scapy on all interfaces |
-| 2 | Feature Extraction — 18-dimensional vector |
+| 1 | Packet Capture - Scapy on all interfaces |
+| 2 | Feature Extraction - 18-dimensional vector |
 | 3 | 9-Layer Detection Pipeline |
-| 4 | ML Ensemble — 5 models, weighted voting |
-| 5 | Correlation Engine — NIDS + HIDS unified alert |
+| 4 | ML Ensemble - 5 models, weighted voting |
+| 5 | Correlation Engine - NIDS + HIDS unified alert |
 | 6 | FastAPI Backend + WebSocket |
-| 7 | React Dashboard — dark/light mode, live updates |
+| 7 | React Dashboard - dark/light mode, live updates |
 
 ---
 
