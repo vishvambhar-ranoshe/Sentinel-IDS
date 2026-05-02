@@ -22,7 +22,11 @@ Sentinel is not a configuration of existing tools. Every component is built from
 It captures live packets on all active interfaces simultaneously, runs them through nine detection layers, feeds them into five machine learning models in parallel, correlates network and host events, and displays everything live on a React dashboard with dark and light mode.
 
 ---
+## Dashboard
 
+<img width="1470" height="956" alt="Screenshot 2026-05-02 at 7 07 03 PM" src="https://github.com/user-attachments/assets/1bca13c2-8a54-4d1d-a950-1e93241a587f" />
+
+---
 ## ML Model Performance
 
 Trained on **CICIDS2017** - 2,827,876 samples across 15 attack categories.
