@@ -24,7 +24,8 @@ It captures live packets on all active interfaces simultaneously, runs them thro
 ---
 ## Dashboard
 
-<img width="1470" height="956" alt="Screenshot 2026-05-02 at 7 07 03 PM" src="https://github.com/user-attachments/assets/1bca13c2-8a54-4d1d-a950-1e93241a587f" />
+<img width="1470" height="956" alt="Screenshot 2026-05-02 at 7 23 53 PM" src="https://github.com/user-attachments/assets/11af4aa7-65b9-40d5-9a79-2c1a8aae5263" />
+
 
 ---
 ## ML Model Performance
