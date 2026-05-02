@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Data — too large for GitHub
+data/raw/
+data/processed/
+data/models/
+
+# Logs
+logs/
+
+# Environment
+.env
+.venv
+env/
+
+# Mac
+.DS_Store
+
+# Node
+dashboard/node_modules/
+
+# Anaconda
+.anaconda/
+
+# Temp
+MachineLearningCVE/
+nano
